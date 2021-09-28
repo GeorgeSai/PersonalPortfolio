@@ -9,6 +9,7 @@ class App extends Component{
     <div>
       <NavbarComp />
       <Footer />
+      
     </div>
 
     );

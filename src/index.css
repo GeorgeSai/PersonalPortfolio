@@ -116,3 +116,14 @@ a.discord {
 padding-top: 1rem;
 }
 
+/*logo*/
+.logo2{
+  max-width: 960px;
+  margin: 0 auto;
+}
+.logo{
+ width: 100%;
+ background-size: contain;
+  
+}
+

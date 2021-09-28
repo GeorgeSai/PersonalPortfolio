@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-// import Logo from '../z.jpg'
+import Logo from '../z.jpg'
 export default class Home extends Component {
     render() {
         return (
@@ -12,9 +12,11 @@ export default class Home extends Component {
                 <h2>I am a <span>Developer</span> from Lebanon, I have a fresh and active experience in developing websites. I like to like code and in my free time I play basketball.</h2>
             </div>
 
-             {/* <div className="logo">
-                <img src={Logo} alt="backpics"/>
-            </div> */}
+             <div className="logo2">
+                <img src={Logo} className="logo"  alt="backpics"/>
+            </div>
+            
+            
 
             
             </>
