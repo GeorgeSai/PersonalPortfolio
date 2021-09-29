@@ -26,10 +26,10 @@ export default class About extends Component {
 
 
             <div className="bars">
-            <h3>HTML</h3><ProgressBar variant="success" now={85} />
-            <h3>CSS</h3><ProgressBar variant="info" now={70} />
-            <h3>JAVAScript</h3><ProgressBar variant="warning" now={75} />
-            <h3>PHP</h3><ProgressBar variant="danger" now={80} />
+            <h3>HTML</h3><ProgressBar animated striped variant="success" now={85} />
+            <h3>CSS</h3><ProgressBar animated striped variant="info" now={70} />
+            <h3>JAVAScript</h3><ProgressBar animated striped variant="warning" now={75} />
+            <h3>PHP</h3><ProgressBar animated striped variant="danger" now={80} />
 
             </div>
            
