@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { ProgressBar } from 'react-bootstrap'
 
 export default class About extends Component {
     render() {
@@ -21,12 +22,15 @@ export default class About extends Component {
 
                 <h3 style={{color:'#8B0000'}}>Product Development:</h3>
                 <p>Also called new product management, is a series of steps that includes the conceptualization, design, development and marketing of newly created or newly rebranded goods or services.</p>
+                </div>
 
-                
 
-                
+            <div className="bars">
+            <h3>HTML</h3><ProgressBar variant="success" now={85} />
+            <h3>CSS</h3><ProgressBar variant="info" now={70} />
+            <h3>JAVAScript</h3><ProgressBar variant="warning" now={75} />
+            <h3>PHP</h3><ProgressBar variant="danger" now={80} />
 
-                
             </div>
            
 

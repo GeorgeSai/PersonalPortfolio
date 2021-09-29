@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Logo from '../z.jpg'
+
 export default class Home extends Component {
     render() {
         return (
@@ -15,7 +16,9 @@ export default class Home extends Component {
              <div className="logo2">
                 <img src={Logo} className="logo"  alt="backpics"/>
             </div>
-            
+
+
+           
             
 
             
