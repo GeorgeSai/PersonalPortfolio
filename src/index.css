@@ -124,11 +124,49 @@ padding-top: 1rem;
 .logo{
  width: 100%;
  background-size: contain;
-  
 }
+/***project1***/
+.sitepic{
+  max-width: 960px;
+  margin: 0 auto;
+}
+.sitepic2{
+ width: 100%;
+ background-size: contain;
+ }
+/***project1 end***/
+
+/***project2***/
+.sitepic3{
+  max-width: 960px;
+  margin: 0 auto;
+}
+.sitepic4{
+ width: 100%;
+ background-size: contain;
+ }
+
+
+/***project2 end***/
+
+/***project3***/
+.sitepic5{
+  max-width: 960px;
+  margin: 0 auto;
+}
+.sitepic6{
+ width: 100%;
+ background-size: contain;
+ }
+/***project3 end***/
+
+
+
+/****logo****/
 
 
 .bars{
   padding: 5rem;
+  border-radius: 2px solid black;
   
 }
